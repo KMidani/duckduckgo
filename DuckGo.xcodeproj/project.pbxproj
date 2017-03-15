@@ -9,12 +9,21 @@
 /* Begin PBXBuildFile section */
 		3276155B1E78A0F7004EEEA9 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 3276155A1E78A0F7004EEEA9 /* main.m */; };
 		3276155E1E78A0F7004EEEA9 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 3276155D1E78A0F7004EEEA9 /* AppDelegate.m */; };
-		327615611E78A0F7004EEEA9 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 327615601E78A0F7004EEEA9 /* ViewController.m */; };
 		327615641E78A0F7004EEEA9 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327615621E78A0F7004EEEA9 /* Main.storyboard */; };
 		327615661E78A0F7004EEEA9 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 327615651E78A0F7004EEEA9 /* Assets.xcassets */; };
 		327615691E78A0F7004EEEA9 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 327615671E78A0F7004EEEA9 /* LaunchScreen.storyboard */; };
 		327615741E78A0F7004EEEA9 /* DuckGoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 327615731E78A0F7004EEEA9 /* DuckGoTests.m */; };
 		3276157F1E78A0F7004EEEA9 /* DuckGoUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 3276157E1E78A0F7004EEEA9 /* DuckGoUITests.m */; };
+		327615971E78A2DB004EEEA9 /* DuckGoMainVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 327615961E78A2DB004EEEA9 /* DuckGoMainVC.m */; };
+		3276159A1E78A372004EEEA9 /* DGTopicListVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 327615991E78A372004EEEA9 /* DGTopicListVC.m */; };
+		3276159D1E78A390004EEEA9 /* DGWebViewVC.m in Sources */ = {isa = PBXBuildFile; fileRef = 3276159C1E78A390004EEEA9 /* DGWebViewVC.m */; };
+		327615A01E78A516004EEEA9 /* DGTopic.m in Sources */ = {isa = PBXBuildFile; fileRef = 3276159F1E78A516004EEEA9 /* DGTopic.m */; };
+		327615A31E78A5B2004EEEA9 /* DGRelatedTopics.m in Sources */ = {isa = PBXBuildFile; fileRef = 327615A21E78A5B2004EEEA9 /* DGRelatedTopics.m */; };
+		327615A61E78A5DB004EEEA9 /* SearchResults.m in Sources */ = {isa = PBXBuildFile; fileRef = 327615A51E78A5DB004EEEA9 /* SearchResults.m */; };
+		327615AA1E78A6F2004EEEA9 /* DGParser.m in Sources */ = {isa = PBXBuildFile; fileRef = 327615A91E78A6F2004EEEA9 /* DGParser.m */; };
+		327615AD1E78A9FB004EEEA9 /* DuckDuckGoApi.m in Sources */ = {isa = PBXBuildFile; fileRef = 327615AC1E78A9FB004EEEA9 /* DuckDuckGoApi.m */; };
+		329DE35C1E790D4B0070DE1C /* TopicCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 329DE35B1E790D4B0070DE1C /* TopicCell.m */; };
+		329DE3601E790EB10070DE1C /* HeaderCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 329DE35F1E790EB10070DE1C /* HeaderCell.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,8 +48,6 @@
 		3276155A1E78A0F7004EEEA9 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		3276155C1E78A0F7004EEEA9 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		3276155D1E78A0F7004EEEA9 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		3276155F1E78A0F7004EEEA9 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		327615601E78A0F7004EEEA9 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
 		327615631E78A0F7004EEEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		327615651E78A0F7004EEEA9 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		327615681E78A0F7004EEEA9 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -51,6 +58,26 @@
 		3276157A1E78A0F7004EEEA9 /* DuckGoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = DuckGoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		3276157E1E78A0F7004EEEA9 /* DuckGoUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = DuckGoUITests.m; sourceTree = "<group>"; };
 		327615801E78A0F7004EEEA9 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		327615951E78A2DB004EEEA9 /* DuckGoMainVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuckGoMainVC.h; path = ViewControllers/DuckGoMainVC.h; sourceTree = "<group>"; };
+		327615961E78A2DB004EEEA9 /* DuckGoMainVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DuckGoMainVC.m; path = ViewControllers/DuckGoMainVC.m; sourceTree = "<group>"; };
+		327615981E78A372004EEEA9 /* DGTopicListVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGTopicListVC.h; path = ViewControllers/DGTopicListVC.h; sourceTree = "<group>"; };
+		327615991E78A372004EEEA9 /* DGTopicListVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGTopicListVC.m; path = ViewControllers/DGTopicListVC.m; sourceTree = "<group>"; };
+		3276159B1E78A390004EEEA9 /* DGWebViewVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGWebViewVC.h; path = ViewControllers/DGWebViewVC.h; sourceTree = "<group>"; };
+		3276159C1E78A390004EEEA9 /* DGWebViewVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGWebViewVC.m; path = ViewControllers/DGWebViewVC.m; sourceTree = "<group>"; };
+		3276159E1E78A516004EEEA9 /* DGTopic.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGTopic.h; path = Model/DGTopic.h; sourceTree = "<group>"; };
+		3276159F1E78A516004EEEA9 /* DGTopic.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGTopic.m; path = Model/DGTopic.m; sourceTree = "<group>"; };
+		327615A11E78A5B2004EEEA9 /* DGRelatedTopics.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGRelatedTopics.h; path = Model/DGRelatedTopics.h; sourceTree = "<group>"; };
+		327615A21E78A5B2004EEEA9 /* DGRelatedTopics.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGRelatedTopics.m; path = Model/DGRelatedTopics.m; sourceTree = "<group>"; };
+		327615A41E78A5DB004EEEA9 /* SearchResults.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SearchResults.h; sourceTree = "<group>"; };
+		327615A51E78A5DB004EEEA9 /* SearchResults.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SearchResults.m; sourceTree = "<group>"; };
+		327615A81E78A6F2004EEEA9 /* DGParser.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DGParser.h; path = DGparser/DGParser.h; sourceTree = "<group>"; };
+		327615A91E78A6F2004EEEA9 /* DGParser.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DGParser.m; path = DGparser/DGParser.m; sourceTree = "<group>"; };
+		327615AB1E78A9FB004EEEA9 /* DuckDuckGoApi.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = DuckDuckGoApi.h; path = Managers/DuckDuckGoApi.h; sourceTree = "<group>"; };
+		327615AC1E78A9FB004EEEA9 /* DuckDuckGoApi.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = DuckDuckGoApi.m; path = Managers/DuckDuckGoApi.m; sourceTree = "<group>"; };
+		329DE35A1E790D4B0070DE1C /* TopicCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = TopicCell.h; path = Views/TopicCell.h; sourceTree = "<group>"; };
+		329DE35B1E790D4B0070DE1C /* TopicCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = TopicCell.m; path = Views/TopicCell.m; sourceTree = "<group>"; };
+		329DE35E1E790EB10070DE1C /* HeaderCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = HeaderCell.h; path = Views/HeaderCell.h; sourceTree = "<group>"; };
+		329DE35F1E790EB10070DE1C /* HeaderCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = HeaderCell.m; path = Views/HeaderCell.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -101,14 +128,15 @@
 		327615581E78A0F7004EEEA9 /* DuckGo */ = {
 			isa = PBXGroup;
 			children = (
+				327615A71E78A6B2004EEEA9 /* DGParser */,
+				327615901E78A16D004EEEA9 /* StoryBoards */,
+				3276158F1E78A157004EEEA9 /* managers */,
+				3276158E1E78A14D004EEEA9 /* Models */,
+				3276158D1E78A147004EEEA9 /* Views */,
+				3276158C1E78A137004EEEA9 /* ViewControllers */,
 				3276155C1E78A0F7004EEEA9 /* AppDelegate.h */,
 				3276155D1E78A0F7004EEEA9 /* AppDelegate.m */,
-				3276155F1E78A0F7004EEEA9 /* ViewController.h */,
-				327615601E78A0F7004EEEA9 /* ViewController.m */,
-				327615621E78A0F7004EEEA9 /* Main.storyboard */,
-				327615651E78A0F7004EEEA9 /* Assets.xcassets */,
-				327615671E78A0F7004EEEA9 /* LaunchScreen.storyboard */,
-				3276156A1E78A0F7004EEEA9 /* Info.plist */,
+				327615911E78A185004EEEA9 /* Resources */,
 				327615591E78A0F7004EEEA9 /* Supporting Files */,
 			);
 			path = DuckGo;
@@ -138,6 +166,79 @@
 				327615801E78A0F7004EEEA9 /* Info.plist */,
 			);
 			path = DuckGoUITests;
+			sourceTree = "<group>";
+		};
+		3276158C1E78A137004EEEA9 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				327615951E78A2DB004EEEA9 /* DuckGoMainVC.h */,
+				327615961E78A2DB004EEEA9 /* DuckGoMainVC.m */,
+				327615981E78A372004EEEA9 /* DGTopicListVC.h */,
+				327615991E78A372004EEEA9 /* DGTopicListVC.m */,
+				3276159B1E78A390004EEEA9 /* DGWebViewVC.h */,
+				3276159C1E78A390004EEEA9 /* DGWebViewVC.m */,
+			);
+			name = ViewControllers;
+			sourceTree = "<group>";
+		};
+		3276158D1E78A147004EEEA9 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				329DE35A1E790D4B0070DE1C /* TopicCell.h */,
+				329DE35B1E790D4B0070DE1C /* TopicCell.m */,
+				329DE35E1E790EB10070DE1C /* HeaderCell.h */,
+				329DE35F1E790EB10070DE1C /* HeaderCell.m */,
+			);
+			name = Views;
+			sourceTree = "<group>";
+		};
+		3276158E1E78A14D004EEEA9 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				3276159E1E78A516004EEEA9 /* DGTopic.h */,
+				3276159F1E78A516004EEEA9 /* DGTopic.m */,
+				327615A11E78A5B2004EEEA9 /* DGRelatedTopics.h */,
+				327615A21E78A5B2004EEEA9 /* DGRelatedTopics.m */,
+				327615A41E78A5DB004EEEA9 /* SearchResults.h */,
+				327615A51E78A5DB004EEEA9 /* SearchResults.m */,
+			);
+			name = Models;
+			sourceTree = "<group>";
+		};
+		3276158F1E78A157004EEEA9 /* managers */ = {
+			isa = PBXGroup;
+			children = (
+				327615AB1E78A9FB004EEEA9 /* DuckDuckGoApi.h */,
+				327615AC1E78A9FB004EEEA9 /* DuckDuckGoApi.m */,
+			);
+			name = managers;
+			sourceTree = "<group>";
+		};
+		327615901E78A16D004EEEA9 /* StoryBoards */ = {
+			isa = PBXGroup;
+			children = (
+				327615621E78A0F7004EEEA9 /* Main.storyboard */,
+				327615671E78A0F7004EEEA9 /* LaunchScreen.storyboard */,
+			);
+			name = StoryBoards;
+			sourceTree = "<group>";
+		};
+		327615911E78A185004EEEA9 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				327615651E78A0F7004EEEA9 /* Assets.xcassets */,
+				3276156A1E78A0F7004EEEA9 /* Info.plist */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
+		327615A71E78A6B2004EEEA9 /* DGParser */ = {
+			isa = PBXGroup;
+			children = (
+				327615A81E78A6F2004EEEA9 /* DGParser.h */,
+				327615A91E78A6F2004EEEA9 /* DGParser.m */,
+			);
+			name = DGParser;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -273,9 +374,18 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				327615611E78A0F7004EEEA9 /* ViewController.m in Sources */,
+				327615AD1E78A9FB004EEEA9 /* DuckDuckGoApi.m in Sources */,
+				327615A01E78A516004EEEA9 /* DGTopic.m in Sources */,
+				327615971E78A2DB004EEEA9 /* DuckGoMainVC.m in Sources */,
+				327615A61E78A5DB004EEEA9 /* SearchResults.m in Sources */,
+				329DE3601E790EB10070DE1C /* HeaderCell.m in Sources */,
+				3276159A1E78A372004EEEA9 /* DGTopicListVC.m in Sources */,
+				327615AA1E78A6F2004EEEA9 /* DGParser.m in Sources */,
+				329DE35C1E790D4B0070DE1C /* TopicCell.m in Sources */,
 				3276155E1E78A0F7004EEEA9 /* AppDelegate.m in Sources */,
 				3276155B1E78A0F7004EEEA9 /* main.m in Sources */,
+				327615A31E78A5B2004EEEA9 /* DGRelatedTopics.m in Sources */,
+				3276159D1E78A390004EEEA9 /* DGWebViewVC.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -507,6 +617,7 @@
 				327615851E78A0F7004EEEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		327615861E78A0F7004EEEA9 /* Build configuration list for PBXNativeTarget "DuckGoTests" */ = {
 			isa = XCConfigurationList;
@@ -515,6 +626,7 @@
 				327615881E78A0F7004EEEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 		327615891E78A0F7004EEEA9 /* Build configuration list for PBXNativeTarget "DuckGoUITests" */ = {
 			isa = XCConfigurationList;
@@ -523,6 +635,7 @@
 				3276158B1E78A0F7004EEEA9 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
